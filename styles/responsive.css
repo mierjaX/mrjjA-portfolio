@@ -76,6 +76,7 @@
     #hero {
         grid-template-columns: 1fr;
         height: fit-content;
+        padding-top: 100px
     }
 
     .hero-right {

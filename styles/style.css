@@ -29,6 +29,17 @@ html {
     scroll-behavior: smooth;
 }
 
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff; /* Sesuaikan warna latar belakang */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Opsional: Tambahkan bayangan */
+    z-index: 1000; /* Pastikan header tetap di atas elemen lain */
+    padding: 0 20px; /* Sesuaikan padding */
+}
+
 body {
     font-family: "Roboto", sans-serif;
 }
